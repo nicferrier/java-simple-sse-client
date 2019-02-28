@@ -1,16 +1,3 @@
-# Java SSEClient
-
-I needed a Java SSE client for doing some tests... 
-
-It doesn't have to be that performant, I'm not going to use it to do
-anything real, goodness knows, it's Java.
-
-So here is a very simple, synchronous only SSE client.
-
-There's a good example test, using [mu-server](http://muserver.io/sse)
-but here's an example:
-
-```java
 import io.muserver.*;
 import uk.co.ferrier.sseclient.SSEClient;
 
@@ -44,4 +31,3 @@ public class SSEClientDemo {
         }
     }
 }
-```
